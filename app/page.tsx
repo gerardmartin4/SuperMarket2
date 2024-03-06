@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <header style={{ backgroundColor: '#4CAF50', color: '#fff', padding: '20px', textAlign: 'center' }}>
+      <header style={{ backgroundColor: '#007BFF', color: '#fff', padding: '20px', textAlign: 'center' }}>
         <h1>Mi Supermarket Sim</h1>
       </header>
       <nav style={{ backgroundColor: '#333', padding: '10px', textAlign: 'center' }}>
