@@ -2,62 +2,31 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-   <!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Supermarket Game Update</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-color: #f4f4f4;
-    }
-    #container {
-      text-align: center;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      color: #666;
-    }
-    button {
-      padding: 10px 20px;
-      font-size: 16px;
-      cursor: pointer;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      border-radius: 5px;
-      margin-top: 20px;
-    }
-  </style>
-</head>
-<body>
-  <div id="container">
-    <h1>Supermarket Game Update</h1>
-    <p>Avance del juego: <span id="progress">0</span>% completado</p>
-    <button onclick="updateProgress()">Actualizar Avance</button>
-  </div>
-
-  <script>
-    let gameProgress = 0;
-
-    function updateProgress() {
-      // Lógica para actualizar el progreso del juego
-      // Puedes ajustar esto según tus necesidades
-      gameProgress = Math.min(gameProgress + 10, 100);
-      document.getElementById('progress').innerText = gameProgress;
-    }
-  </script>
-</body>
-</html>
+  <div>
+            <header style={{ backgroundColor: '#333', color: '#fff', padding: '20px', textAlign: 'center' }}>
+                <h1>Mi Blog</h1>
+            </header>
+            <nav style={{ backgroundColor: '#666', padding: '10px', textAlign: 'center' }}>
+                <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
+                <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Artículos</a>
+                <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Contacto</a>
+            </nav>
+            <section style={{ padding: '20px' }}>
+                <h2>Últimas publicaciones</h2>
+                <article>
+                    <h3>Título del primer artículo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur metus id leo efficitur, a posuere quam finibus.</p>
+                    <a href="#">Leer más</a>
+                </article>
+                <article>
+                    <h3>Título del segundo artículo</h3>
+                    <p>Sed euismod justo in tempor aliquam. Ut feugiat quam eu eros laoreet efficitur.</p>
+                    <a href="#">Leer más</a>
+                </article>
+            </section>
+            <footer style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '10px', position: 'fixed', bottom: '0', width: '100%' }}>
+                <p>Derechos de autor © 2024 Mi Blog</p>
+            </footer>
+        </div>
   );
 }
