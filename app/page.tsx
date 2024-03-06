@@ -3,10 +3,10 @@ import Image from "next/image";
 export default function Home() {
   return (
   <div>
-            <header style={{ backgroundColor: '#333', color: '#fff', padding: '20px', textAlign: 'center' }}>
+            <header style={{ backgroundColor: '#777', color: '#fff', padding: '20px', textAlign: 'center' }}>
                 <h1>Mi Blog</h1>
             </header>
-            <nav style={{ backgroundColor: '#666', padding: '10px', textAlign: 'center' }}>
+            <nav style={{ backgroundColor: '#222', padding: '10px', textAlign: 'center' }}>
                 <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
                 <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Artículos</a>
                 <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Contacto</a>
