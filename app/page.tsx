@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <div>
       <header style={{ backgroundColor: '#007BFF', color: '#fff', padding: '20px', textAlign: 'center' }}>
-        <h1>Mi Supermarket Sim</h1>
+        <h1>Mi Supermarket</h1>
       </header>
       <nav style={{ backgroundColor: '#333', padding: '10px', textAlign: 'center' }}>
         <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
@@ -16,7 +16,7 @@ export default function Home() {
         <h2>Explora el Mundo del Supermercado</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
           <Image
-            src="/supermarket-image.jpg" // Añade la ruta correcta de tu imagen
+            src="/‪C:\Users\asixc1\Pictures\supermarket.jpg" // Añade la ruta correcta de tu imagen
             alt="Supermarket"
             width={400}
             height={250}
