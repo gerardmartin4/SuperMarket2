@@ -27,11 +27,11 @@ export default function Home() {
             <h3>Suministra tu empresa</h3>
               <p>Ordena las existencias utilizando un ordenador del juego. Desembala los productos, organízalos en tu almacén y colócalos en estanterías, frigoríficos y congeladores.</p>
             <h3>Cajero</h3>
-              <p>Navegue por las complejidades de un mercado en tiempo real. Compre productos cuando los precios bajen y determine los precios más vendidos para equilibrar la satisfacción del cliente con los márgenes de beneficio.</p>
+              <p>Escanea artículos, acepta pagos en efectivo y con tarjeta de crédito, y asegúrate de que los clientes se van satisfechos con su experiencia de compra y pago.</p>
             <h3>Mercado libre</h3>
-              <p>A medida que acumules beneficios, plantéate reinvertir. Amplía el espacio físico de tu tienda, mejora los interiores y adáptate continuamente a las cambiantes demandas del mundo minorista.</p>
+              <p>Navegue por las complejidades de un mercado en tiempo real. Compre productos cuando los precios bajen y determine los precios más vendidos para equilibrar la satisfacción del cliente con los márgenes de beneficio.</p>
             <h3>Expandete</h3>
-              <p>En "Supermarket Simulator", cada decisión cuenta. ¿Estarás a la altura de las circunstancias, transformando un modesto establecimiento en una potencia del comercio minorista, equilibrando al mismo tiempo la satisfacción del cliente y las finanzas?</p>
+              <p>A medida que acumules beneficios, plantéate reinvertir. Amplía el espacio físico de tu tienda, mejora los interiores y adáptate continuamente a las cambiantes demandas del mundo minorista.</p>
         </article>
       </section>
       <footer style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '10px', position: 'fixed', bottom: '0', width: '100%' }}>
