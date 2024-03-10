@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 
-const Page2 = () => {
+const Page2  {
   return (
    return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
