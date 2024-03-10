@@ -26,7 +26,7 @@ export default function Home() {
         {/* Otra sección similar para la segunda imagen */}
       </section>
       <footer style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '10px', position: 'fixed', bottom: '0', width: '100%' }}>
-        <p>Derechos de autor © 2024 Mi Supermarket Sim</p>
+        <p>Derechos de autor © 2024 Mi Supermarket Simulator</p>
       </footer>
     </div>
   );
