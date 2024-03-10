@@ -16,7 +16,7 @@ export default function Home() {
         <h2>Explora el Mundo del Supermercado</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
           <Image
-            src="/‪C:\Users\asixc1\Imatges\supermarket.jpg" // Añade la ruta correcta de tu imagen
+            src="foto1.jpg" // Añade la ruta correcta de tu imagen
             alt="Supermarket"
             width={400}
             height={250}
