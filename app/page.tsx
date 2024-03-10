@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
-        <h1>Mi Supermarket</h1>
+        <h1 style={{ fontSize: '2em' }}>Mi Supermarket</h1>
       </header>
       <section style={{ padding: '20px' }}>
         <h2>Explora el Mundo del Supermercado</h2>
@@ -20,7 +20,7 @@ export default function Home() {
           <p>Dirige tu propio supermercado. Abastece las estanterías, fija los precios a tu gusto, acepta pagos, contrata personal, amplía y diseña tu tienda. Pedidos y entregas en línea, ladrones, seguridad, mercado local.</p>
           <a href="https://store.steampowered.com/app/2670630/Supermarket_Simulator/" target="_blank" rel="noopener noreferrer" style={{ display: 'block', margin: '10px auto', backgroundColor: '#004080', color: '#fff', padding: '8px 16px', borderRadius: '4px', textDecoration: 'none' }}>Comprar Videojuego</a>
         </article>
-        <h2>Acerca de este juego</h2>
+        <h2 style={{ fontSize: '1em' }}>Acerca de este juego</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
             <h3>Administración de la tienda</h3>
               <p>Diseña tu tienda, optimizando la eficiencia y la estética. Determina dónde se exponen los productos, gestiona tus pasillos y garantiza una experiencia de compra fluida para tus clientes.</p>
