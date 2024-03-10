@@ -7,7 +7,7 @@ export default function Home() {
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
         <h1 style={{ fontSize: '3em' }}>Mi Supermarket</h1>
       </header>
-      <section style={{ padding: '20px' }}>
+      <section style={{ padding: '20px', backgroundColor: '#333' }}>
         <h2 style={{ fontSize: '2em' }}>Explora el Mundo del Supermercado</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px',backgroundColor: '#000', marginBottom: '20px', padding: '15px' }}>
           <Image
