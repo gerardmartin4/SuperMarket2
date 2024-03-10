@@ -8,8 +8,8 @@ export default function Home() {
         <h1 style={{ fontSize: '3em' }}>Mi Supermarket</h1>
       </header>
       <section style={{ padding: '20px' }}>
-        <h2>Explora el Mundo del Supermercado</h2>
-        <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
+        <h2 style={{ fontSize: '2em' }}>Explora el Mundo del Supermercado</h2>
+        <article style={{ border: '1px solid #ddd', borderRadius: '8px',backgroundColor: '#000', marginBottom: '20px', padding: '15px' }}>
           <Image
             src="/foto1.jpg" 
             alt="Supermarket"
@@ -21,7 +21,7 @@ export default function Home() {
           <a href="https://store.steampowered.com/app/2670630/Supermarket_Simulator/" target="_blank" rel="noopener noreferrer" style={{ display: 'block', margin: '10px auto', backgroundColor: '#004080', color: '#fff', padding: '8px 16px', borderRadius: '4px', textDecoration: 'none' }}>Comprar Videojuego</a>
         </article>
         <h2 style={{ fontSize: '2em' }}>Acerca de este juego</h2>
-        <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
+        <article style={{ border: '1px solid #ddd', borderRadius: '8px',backgroundColor: '#000', marginBottom: '20px', padding: '15px' }}>
             <h3 style={{ fontSize: '1em' }}>Administración de la tienda</h3>
               <p>Diseña tu tienda, optimizando la eficiencia y la estética. Determina dónde se exponen los productos, gestiona tus pasillos y garantiza una experiencia de compra fluida para tus clientes.</p>
               <Image
@@ -69,7 +69,7 @@ export default function Home() {
               />
         </article>
         <h2 style={{ fontSize: '2em' }}>Requisitos del Sistema</h2>
-        <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'  }}>
+        <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px', display: 'flex',backgroundColor: '#000', justifyContent: 'space-between', flexWrap: 'wrap'  }}>
           <div style={{ width: '48%' }}>
             <h3 style={{ fontSize: '1em' }}>MÍNIMO</h3>
             <p>SO: Windows (64-bit) 10</p>
