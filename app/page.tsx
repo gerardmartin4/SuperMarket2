@@ -24,8 +24,22 @@ export default function Home() {
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
             <h3>Administración de la tienda</h3>
               <p>Diseña tu tienda, optimizando la eficiencia y la estética. Determina dónde se exponen los productos, gestiona tus pasillos y garantiza una experiencia de compra fluida para tus clientes.</p>
+              <Image
+                src="/Gestion.jpg" 
+                alt="Cajero"
+                width={400}
+                height={250}
+                style={{ margin: '0 auto' }} 
+              />
             <h3>Suministra tu empresa</h3>
               <p>Ordena las existencias utilizando un ordenador del juego. Desembala los productos, organízalos en tu almacén y colócalos en estanterías, frigoríficos y congeladores.</p>
+              <Image
+                src="/Almacenamiento.jpg" 
+                alt="Cajero"
+                width={400}
+                height={250}
+                style={{ margin: '0 auto' }} 
+              />
             <h3>Cajero</h3>
               <p>Escanea artículos, acepta pagos en efectivo y con tarjeta de crédito, y asegúrate de que los clientes se van satisfechos con su experiencia de compra y pago.</p>
               <Image
@@ -37,6 +51,13 @@ export default function Home() {
               />
             <h3>Mercado libre</h3>
               <p>Navegue por las complejidades de un mercado en tiempo real. Compre productos cuando los precios bajen y determine los precios más vendidos para equilibrar la satisfacción del cliente con los márgenes de beneficio.</p>
+              <Image
+                src="/MercadoLibre.jpg" 
+                alt="Cajero"
+                width={400}
+                height={250}
+                style={{ margin: '0 auto' }} 
+              />
             <h3>Expandete</h3>
               <p>A medida que acumules beneficios, plantéate reinvertir. Amplía el espacio físico de tu tienda, mejora los interiores y adáptate continuamente a las cambiantes demandas del mundo minorista.</p>
               <Image
