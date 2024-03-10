@@ -2,7 +2,6 @@ import Image from "next/image";
 import Link from 'next/link';
 
 const Page2  {
-  return (
    return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
