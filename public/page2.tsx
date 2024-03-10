@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 
-const Page2  {
+export default function Home() {
    return (
      <div style={{ textAlign: 'center', padding: '20px' }}>
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
