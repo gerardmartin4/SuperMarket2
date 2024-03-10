@@ -7,17 +7,6 @@ export default function Home() {
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
         <h1>Mi Supermarket</h1>
       </header>
-      <nav style={{ backgroundColor: '#333', padding: '10px', textAlign: 'center' }}>
-        <Link href="/">
-          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
-        </Link>
-        <Link href="/sobreJuego.tsx">
-          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Acerca de este juego</a>
-        </Link>
-        <Link href="/system-requirements">
-          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Requisitos del Sistema</a>
-        </Link>
-      </nav>
       <section style={{ padding: '20px' }}>
         <h2>Explora el Mundo del Supermercado</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
