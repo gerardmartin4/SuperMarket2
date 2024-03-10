@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -7,10 +8,18 @@ export default function Home() {
         <h1>Mi Supermarket</h1>
       </header>
       <nav style={{ backgroundColor: '#333', padding: '10px', textAlign: 'center' }}>
-        <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
-        <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Productos</a>
-        <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Carrito</a>
-        <a href="#" style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Contacto</a>
+        <Link href="/">
+          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
+        </Link>
+        <Link href="/products">
+          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Productos</a>
+        </Link>
+        <Link href="/cart">
+          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Carrito</a>
+        </Link>
+        <Link href="/contact">
+          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Contacto</a>
+        </Link>
       </nav>
       <section style={{ padding: '20px' }}>
         <h2>Explora el Mundo del Supermercado</h2>
@@ -24,7 +33,9 @@ export default function Home() {
           />
           <h3 style={{ marginTop: '10px' }}>Título del Producto</h3>
           <p>Descubre los mejores productos para tu hogar. Desde alimentos frescos hasta artículos de limpieza.</p>
-          <a href="#" style={{ display: 'block', margin: '10px auto', backgroundColor: '#004080', color: '#fff', padding: '8px 16px', borderRadius: '4px', textDecoration: 'none' }}>Agregar al Carrito</a>
+          <Link href="/cart">
+            <a style={{ display: 'block', margin: '10px auto', backgroundColor: '#004080', color: '#fff', padding: '8px 16px', borderRadius: '4px', textDecoration: 'none' }}>Comprar Videojuego</a>
+          </Link>
         </article>
         {/* Otra sección similar para la segunda imagen */}
       </section>
