@@ -11,7 +11,7 @@ export default function Home() {
         <Link href="/">
           <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
         </Link>
-        <Link href="/page2.tsx">
+        <Link href="/sobre">
           <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Acerca de este juego</a>
         </Link>
         <Link href="/system-requirements">
