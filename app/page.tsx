@@ -11,7 +11,7 @@ export default function Home() {
         <Link href="/">
           <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Inicio</a>
         </Link>
-        <Link href="/AcercaDeEsteJuego">
+        <Link href="/about">
           <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Acerca de este juego</a>
         </Link>
         <Link href="/system-requirements">
@@ -22,11 +22,11 @@ export default function Home() {
         <h2>Explora el Mundo del Supermercado</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
           <Image
-            src="/foto1.jpg"
+            src="/foto1.jpg" // Añade la ruta correcta de tu imagen
             alt="Supermarket"
             width={400}
             height={250}
-            style={{ margin: '0 auto' }}
+            style={{ margin: '0 auto' }} // Centra la imagen horizontalmente
           />
           <h3 style={{ marginTop: '10px' }}>Título del Producto</h3>
           <p>Dirige tu propio supermercado. Abastece las estanterías, fija los precios a tu gusto, acepta pagos, contrata personal, amplía y diseña tu tienda. Pedidos y entregas en línea, ladrones, seguridad, mercado local.</p>
