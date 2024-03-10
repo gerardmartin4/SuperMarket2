@@ -2,8 +2,6 @@
 import Image from "next/image";
 import Link from 'next/link';
 
-// Definición del componente
-const Page2 = () => {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
@@ -16,7 +14,6 @@ const Page2 = () => {
         <Link href="/page2">
           <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Page 2</a>
         </Link>
-        {/* Agrega más enlaces según sea necesario */}
       </nav>
       <section style={{ padding: '20px' }}>
         <h2>ACERCA DE ESTE JUEGO</h2>
@@ -49,5 +46,4 @@ const Page2 = () => {
   );
 }
 
-// Exporta el componente
 export default Page2;
