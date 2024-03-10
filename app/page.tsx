@@ -26,7 +26,7 @@ export default function Home() {
             style={{ margin: '0 auto' }} // Centra la imagen horizontalmente
           />
           <h3 style={{ marginTop: '10px' }}>Título del Producto</h3>
-          <p>Descubre los mejores productos para tu hogar. Desde alimentos frescos hasta artículos de limpieza.</p>
+          <p>Dirige tu propio supermercado. Abastece las estanterías, fija los precios a tu gusto, acepta pagos, contrata personal, amplía y diseña tu tienda. Pedidos y entregas en línea, ladrones, seguridad, mercado local.</p>
           <a href="https://store.steampowered.com/app/2670630/Supermarket_Simulator/" target="_blank" rel="noopener noreferrer" style={{ display: 'block', margin: '10px auto', backgroundColor: '#004080', color: '#fff', padding: '8px 16px', borderRadius: '4px', textDecoration: 'none' }}>Comprar Videojuego</a>
         </article>
         {/* Otra sección similar para la segunda imagen */}
