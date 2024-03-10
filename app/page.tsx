@@ -22,8 +22,8 @@ export default function Home() {
         </article>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
           <h2>Acerca de este juego</h2>
-          <p>"Supermarket Simulator" es un juego de simulación en primera persona en la que cada detalle de la gestión de un supermercado cobra vida.</p>
-          <h2>Administración de la tienda</h2>
+          <p>"Supermarket Simulator" es un juego de simulación en primera persona en el que cada detalle de la gestión de un supermercado cobra vida.</p>
+          <h3>Administración de la tienda</h3>
           <p>Diseña tu tienda, optimizando la eficiencia y la estética. Determina dónde se exponen los productos, gestiona tus pasillos y garantiza una experiencia de compra fluida para tus clientes.</p>
         </article>
       </section>
