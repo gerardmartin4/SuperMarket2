@@ -14,6 +14,9 @@ export default function Home() {
         <Link href="/about">
           <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Acerca de este juego</a>
         </Link>
+        <Link href="/system-requirements">
+          <a style={{ color: '#fff', textDecoration: 'none', padding: '0 10px' }}>Requisitos del Sistema</a>
+        </Link>
       </nav>
       <section style={{ padding: '20px' }}>
         <h2>Explora el Mundo del Supermercado</h2>
