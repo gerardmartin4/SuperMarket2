@@ -68,6 +68,27 @@ export default function Home() {
                 style={{ margin: '0 auto' }} 
               />
         </article>
+        <h2>Requisitos del Sistema</h2>
+        <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px', display: 'flex', justifyContent: 'space-between', flexWrap: 'wrap'  }}>
+          <div style={{ width: '48%' }}>
+            <h3>MÍNIMO</h3>
+            <p>SO: Windows (64-bit) 10</p>
+            <p>Procesador: i5 3550 / RYZEN 5 2500X</p>
+            <p>Memoria: 4 GB de RAM</p>
+            <p>Gráficos: NVIDIA GTX 1050 / AMD R9 270X</p>
+            <p>DirectX: Versión 11</p>
+            <p>Almacenamiento: 5 GB de espacio disponible</p>
+          </div>
+          <div style={{ width: '48%' }}>
+            <h3>RECOMENDADO</h3>
+            <p>SO: Windows (64-bit) 10</p>
+            <p>Procesador: i5 7600K / Ryzen 5 2600x</p>
+            <p>Memoria: 8 GB de RAM</p>
+            <p>Gráficos: NVIDIA GTX 1060 / AMD RX 480</p>
+            <p>DirectX: Versión 11</p>
+            <p>Almacenamiento: 5 GB de espacio disponible</p>
+          </div>
+        </article>
       </section>
       <footer style={{ backgroundColor: '#333', color: '#fff', textAlign: 'center', padding: '10px', position: 'fixed', bottom: '0', width: '100%' }}>
         <p>Derechos de autor © 2024 Mi Supermarket Simulator</p>
