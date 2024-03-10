@@ -4,13 +4,13 @@ export default function Home() {
   return (
     <div style={{ textAlign: 'center', padding: '20px' }}>
       <header style={{ backgroundColor: '#004080', color: '#fff', padding: '20px' }}>
-        <h1>Mi Supermarket</h1>
+        <h1>Mi Supermarket Simulator</h1>
       </header>
       <nav style={{ backgroundColor: '#333', padding: '10px', textAlign: 'center' }}>
         {/* ...otros enlaces... */}
       </nav>
       <section style={{ padding: '20px' }}>
-        <h2>Explora el Mundo del Supermercado</h2>
+        <h2>Dirige tu propio supermercado. Abastece las estanterías, fija los precios a tu gusto, acepta pagos, contrata personal, amplía y diseña tu tienda. Pedidos y entregas en línea, ladrones, seguridad, mercado local.</h2>
         <article style={{ border: '1px solid #ddd', borderRadius: '8px', marginBottom: '20px', padding: '15px' }}>
           <Image
             src="/foto1.jpg" // Añade la ruta correcta de tu imagen
